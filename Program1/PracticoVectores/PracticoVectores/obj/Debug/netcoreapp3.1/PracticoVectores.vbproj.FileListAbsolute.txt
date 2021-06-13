@@ -1,0 +1,15 @@
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.Form1.resources
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.vbproj.GenerateResource.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.AssemblyInfoInputs.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.AssemblyInfo.vb
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.vbproj.CoreCompileInputs.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\bin\Debug\netcoreapp3.1\PracticoVectores.exe
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\bin\Debug\netcoreapp3.1\PracticoVectores.deps.json
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\bin\Debug\netcoreapp3.1\PracticoVectores.runtimeconfig.json
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\bin\Debug\netcoreapp3.1\PracticoVectores.runtimeconfig.dev.json
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\bin\Debug\netcoreapp3.1\PracticoVectores.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\bin\Debug\netcoreapp3.1\PracticoVectores.pdb
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.pdb
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.genruntimeconfig.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoVectores\PracticoVectores\obj\Debug\netcoreapp3.1\PracticoVectores.vbproj.AssemblyReference.cache
