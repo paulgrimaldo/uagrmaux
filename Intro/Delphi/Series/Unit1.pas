@@ -13,8 +13,10 @@ type
     Label1: TLabel;
     Button1: TButton;
     Button2: TButton;
+    BtnSumatoria1: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure BtnSumatoria1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -76,6 +78,47 @@ begin
       n:=n-1;
     end;
     TxtResult.Text := text;
+end;
+
+procedure TForm1.BtnSumatoria1Click(Sender: TObject);
+var
+  sum, s1, s2, aux1, aux2, n,c: Integer;
+  sw: Boolean;
+  result: String;
+begin
+  sum:=0;
+  s1:=1;
+  s2:=1;
+  aux1:= 2;
+  aux2:= 1;
+  c:=1;
+  n:= StrToInt(NTerminos.Text);
+  sw := True;
+  result:='';
+
+  while c<=n do
+  begin
+    result:=result + IntToStr(s1)  + 'x'+ IntToStr(s2)+ ' + ';
+    sum:=sum + s1*s2;
+
+    s1:=s1+1;
+    if sw= True then
+    begin
+      s2:=s2+aux1;
+      aux1:=aux1+1;
+      sw:=False;
+    end
+    else
+    begin
+      s2:=s2+aux2;
+      aux2:=aux2+1;
+      sw:=True;
+    end;
+
+    c:=c+1;
+  end;
+
+  TxtResult.Text :=  result + ': ' + IntToStr(sum);
 end;
 
 end.

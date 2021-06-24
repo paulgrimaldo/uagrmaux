@@ -16,8 +16,8 @@ object Form1: TForm1
   object Label1: TLabel
     Left = 320
     Top = 160
-    Width = 81
-    Height = 26
+    Width = 7
+    Height = 13
     Caption = 'N'
   end
   object NTerminos: TEdit
@@ -51,5 +51,14 @@ object Form1: TForm1
     Caption = 'Serie 2'
     TabOrder = 3
     OnClick = Button2Click
+  end
+  object BtnSumatoria1: TButton
+    Left = 366
+    Top = 360
+    Width = 75
+    Height = 25
+    Caption = 'Sumatoria 1'
+    TabOrder = 4
+    OnClick = BtnSumatoria1Click
   end
 end
