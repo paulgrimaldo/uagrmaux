@@ -174,6 +174,9 @@
     End Function
 
     Public Function VerificarPrimo()
+        If n = 1 Then
+            Return False
+        End If
         Dim b As Boolean
         Dim c As Integer
         b = True : c = 0
@@ -183,7 +186,7 @@
                 c = c + 1
             End If
 
-            If c > 3 Then
+            If c >= 3 Then
                 b = False
                 i = n
             End If
@@ -191,6 +194,10 @@
 
         Return b
 
+    End Function
+
+    Public Function NoPrimo()
+        Return Not VerificarPrimo()
     End Function
 
 
@@ -533,5 +540,20 @@
             End If
         End While
         Return b
+    End Function
+
+    Public Function EsCapicua() As Boolean
+        Dim aux, d, inverso As Integer
+        aux = Me.n
+        While aux <> 0
+            d = aux Mod 10
+            inverso = inverso * 10 + d
+            aux /= 10
+        End While
+        Return inverso = n
+    End Function
+
+    Public Function NoCapicua() As Boolean
+        Return Not EsCapicua()
     End Function
 End Class
