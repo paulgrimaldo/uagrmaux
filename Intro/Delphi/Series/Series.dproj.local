@@ -2,8 +2,10 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021-06-04 22:58:58.000.175,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021-06-04 23:31:01.000.723,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Unit1.pas</Transaction>
-    <Transaction>2021-06-04 23:31:01.000.723,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Unit1.dfm</Transaction>
-    <Transaction>2021-06-04 23:31:13.000.789,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Series.dproj</Transaction>
+    <Transaction>2021-06-04 23:31:01.000.723,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Unit1.dfm=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021-06-04 23:31:01.000.723,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Unit1.pas=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021-06-04 23:31:13.000.789,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Series.dproj=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021-07-07 21:22:48.039,=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Unit2.pas</Transaction>
+    <Transaction>2021-07-07 21:23:21.043,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Sumatorias.pas=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Series\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>

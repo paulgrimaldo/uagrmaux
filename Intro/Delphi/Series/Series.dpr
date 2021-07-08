@@ -2,7 +2,8 @@ program Series;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1};
+  Unit1 in 'Unit1.pas' {Form1},
+  Sumatorias in 'Sumatorias.pas';
 
 {$R *.res}
 
