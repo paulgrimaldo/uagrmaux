@@ -51,6 +51,26 @@ object Form1: TForm1
         Caption = 'Ejercicio 13'
         OnClick = Ejercicio131Click
       end
+      object Ordenar1: TMenuItem
+        Caption = 'Ejercicio 27'
+        OnClick = Ordenar1Click
+      end
+      object Ejercicio31: TMenuItem
+        Caption = 'Ejercicio 3'
+        OnClick = Ejercicio31Click
+      end
+      object Ejercicio331: TMenuItem
+        Caption = 'Ejercicio 33'
+        OnClick = Ejercicio331Click
+      end
+      object Ejercicio261: TMenuItem
+        Caption = 'Ejercicio 26'
+        OnClick = Ejercicio261Click
+      end
+      object Ejercicio51: TMenuItem
+        Caption = 'Ejercicio 5'
+        OnClick = Ejercicio51Click
+      end
     end
   end
 end
