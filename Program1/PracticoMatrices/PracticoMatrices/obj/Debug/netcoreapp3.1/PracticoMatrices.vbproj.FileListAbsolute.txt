@@ -1,0 +1,15 @@
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.vbproj.AssemblyReference.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.Form1.resources
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.vbproj.GenerateResource.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.AssemblyInfoInputs.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.AssemblyInfo.vb
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.vbproj.CoreCompileInputs.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\bin\Debug\netcoreapp3.1\PracticoMatrices.exe
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\bin\Debug\netcoreapp3.1\PracticoMatrices.deps.json
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\bin\Debug\netcoreapp3.1\PracticoMatrices.runtimeconfig.json
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\bin\Debug\netcoreapp3.1\PracticoMatrices.runtimeconfig.dev.json
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\bin\Debug\netcoreapp3.1\PracticoMatrices.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\bin\Debug\netcoreapp3.1\PracticoMatrices.pdb
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.pdb
+D:\PaulGrimaldo\university\Aux2021\Program1\PracticoMatrices\PracticoMatrices\obj\Debug\netcoreapp3.1\PracticoMatrices.genruntimeconfig.cache
