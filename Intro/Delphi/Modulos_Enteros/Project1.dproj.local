@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021-07-17 20:49:42.311,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021-07-17 20:51:55.913,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021-07-17 21:24:57.372,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Entero.pas=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021-07-17 21:25:03.921,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Unit1.dfm=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021-07-17 21:25:03.921,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Unit1.pas=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021-07-17 21:32:26.717,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021-07-17 22:10:35.479,D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Project1.dproj=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2021-07-17 20:49:42.000.311,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021-07-17 20:51:55.000.913,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021-07-17 21:24:57.000.372,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Entero.pas</Transaction>
+    <Transaction>2021-07-17 21:25:03.000.921,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Unit1.pas</Transaction>
+    <Transaction>2021-07-17 21:25:03.000.921,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Unit1.dfm</Transaction>
+    <Transaction>2021-07-17 21:32:26.000.717,=C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021-07-17 22:10:35.000.479,C:\Users\Paul\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\PaulGrimaldo\university\Aux2021\Intro\Delphi\Modulos_Enteros\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
