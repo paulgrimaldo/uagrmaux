@@ -556,4 +556,12 @@
     Public Function NoCapicua() As Boolean
         Return Not EsCapicua()
     End Function
+
+    Public Function EsPar() As Boolean
+        Return Me.n Mod 2 = 0
+    End Function
+
+    Public Function EsImpar() As Boolean
+        Return Not EsPar()
+    End Function
 End Class

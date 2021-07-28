@@ -54,4 +54,71 @@
         s = m.Descargar
         TxtResultado.Text = s
     End Sub
+
+    Private Sub SegmentarPrimosNoPrimosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SegmentarPrimosNoPrimosToolStripMenuItem.Click
+        Dim s As String
+
+        m.SegmentarFilasParesImpares()
+
+        s = m.Descargar
+        TxtResultado.Text = s
+    End Sub
+
+    Private Sub OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem.Click
+        Dim s As String
+        Dim fil As Integer
+        fil = TextBox3.Text
+        m.OrdenarColumnasDeAcuerdoAElementoFilaOrdenado(fil)
+
+        s = m.Descargar
+        TxtResultado.Text = s
+    End Sub
+
+    Private Sub VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem.Click
+
+
+        Dim b = m.VerificarColumnasOrdenadasDeAbajoHaciaArriba
+
+        TxtResultado.Text = b
+    End Sub
+
+    Private Sub CargaManualToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CargaManualToolStripMenuItem1.Click
+        Dim f, c As Integer
+        f = TxtNF.Text
+        c = TxtNC.Text
+        m = New Matriz()
+        m.CargaManual(f, c)
+    End Sub
+
+    Private Sub OrdenarMatrToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OrdenarMatrToolStripMenuItem.Click
+        Dim s As String
+
+        m.OrdenarFilasPorCantidadPrimos()
+
+        s = m.Descargar
+        TxtResultado.Text = s
+    End Sub
+
+    Private Sub OrdenarInversoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OrdenarInversoToolStripMenuItem.Click
+        Dim s As String
+
+        m.OrdenarFinalHastaInicio()
+
+        s = m.Descargar
+        TxtResultado.Text = s
+    End Sub
+
+    Private Sub VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem.Click
+        Dim b As Boolean
+        b = m.VerificarMatrizOrdenadaDeIzquierInferiorADerecha
+        TxtResultado.Text = b
+    End Sub
+
+    Private Sub SegmentarMatrizPorFrecuenciaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SegmentarMatrizPorFrecuenciaToolStripMenuItem.Click
+        Dim s As String
+        m.SegmentarMatrizFrecuencia()
+
+        s = m.Descargar
+        TxtResultado.Text = s
+    End Sub
 End Class

@@ -29,18 +29,27 @@ Partial Class Form1
         Me.AcumularPrimosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CantidadElementosUnicosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CargarRandomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CantidadPrimosPorFilaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SegmentarPrimosNoPrimosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenarMatrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenarInversoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CargaManualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CargaManualToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TxtNF = New System.Windows.Forms.TextBox()
         Me.TxtNC = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TxtResultado = New System.Windows.Forms.TextBox()
-        Me.CantidadPrimosPorFilaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SegmentarMatrizPorFrecuenciaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MatrizToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MatrizToolStripMenuItem, Me.CargaManualToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -49,7 +58,7 @@ Partial Class Form1
         '
         'MatrizToolStripMenuItem
         '
-        Me.MatrizToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CargarToolStripMenuItem, Me.DescargarToolStripMenuItem, Me.AcumularPrimosToolStripMenuItem, Me.CantidadElementosUnicosToolStripMenuItem, Me.CargarRandomToolStripMenuItem, Me.CantidadPrimosPorFilaToolStripMenuItem})
+        Me.MatrizToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CargarToolStripMenuItem, Me.DescargarToolStripMenuItem, Me.AcumularPrimosToolStripMenuItem, Me.CantidadElementosUnicosToolStripMenuItem, Me.CargarRandomToolStripMenuItem, Me.CantidadPrimosPorFilaToolStripMenuItem, Me.SegmentarPrimosNoPrimosToolStripMenuItem, Me.OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem, Me.VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem, Me.OrdenarMatrToolStripMenuItem, Me.OrdenarInversoToolStripMenuItem, Me.VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem, Me.SegmentarMatrizPorFrecuenciaToolStripMenuItem})
         Me.MatrizToolStripMenuItem.Name = "MatrizToolStripMenuItem"
         Me.MatrizToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
         Me.MatrizToolStripMenuItem.Text = "Matriz"
@@ -57,32 +66,87 @@ Partial Class Form1
         'CargarToolStripMenuItem
         '
         Me.CargarToolStripMenuItem.Name = "CargarToolStripMenuItem"
-        Me.CargarToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.CargarToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
         Me.CargarToolStripMenuItem.Text = "Cargar"
         '
         'DescargarToolStripMenuItem
         '
         Me.DescargarToolStripMenuItem.Name = "DescargarToolStripMenuItem"
-        Me.DescargarToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.DescargarToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
         Me.DescargarToolStripMenuItem.Text = "Descargar"
         '
         'AcumularPrimosToolStripMenuItem
         '
         Me.AcumularPrimosToolStripMenuItem.Name = "AcumularPrimosToolStripMenuItem"
-        Me.AcumularPrimosToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.AcumularPrimosToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
         Me.AcumularPrimosToolStripMenuItem.Text = "Acumular primos"
         '
         'CantidadElementosUnicosToolStripMenuItem
         '
         Me.CantidadElementosUnicosToolStripMenuItem.Name = "CantidadElementosUnicosToolStripMenuItem"
-        Me.CantidadElementosUnicosToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.CantidadElementosUnicosToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
         Me.CantidadElementosUnicosToolStripMenuItem.Text = "Cantidad elementos unicos"
         '
         'CargarRandomToolStripMenuItem
         '
         Me.CargarRandomToolStripMenuItem.Name = "CargarRandomToolStripMenuItem"
-        Me.CargarRandomToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.CargarRandomToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
         Me.CargarRandomToolStripMenuItem.Text = "Cargar Random"
+        '
+        'CantidadPrimosPorFilaToolStripMenuItem
+        '
+        Me.CantidadPrimosPorFilaToolStripMenuItem.Name = "CantidadPrimosPorFilaToolStripMenuItem"
+        Me.CantidadPrimosPorFilaToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.CantidadPrimosPorFilaToolStripMenuItem.Text = "Cantidad Primos Por Fila"
+        '
+        'SegmentarPrimosNoPrimosToolStripMenuItem
+        '
+        Me.SegmentarPrimosNoPrimosToolStripMenuItem.Name = "SegmentarPrimosNoPrimosToolStripMenuItem"
+        Me.SegmentarPrimosNoPrimosToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.SegmentarPrimosNoPrimosToolStripMenuItem.Text = "Segmentar Pares Impares"
+        '
+        'OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem
+        '
+        Me.OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem.Name = "OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem"
+        Me.OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem.Text = "Ordenar columnas de acuerdo a fila"
+        '
+        'VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem
+        '
+        Me.VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem.Name = "VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem"
+        Me.VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem.Text = "Verificar Columnas ordenadas abajo a arriba"
+        '
+        'OrdenarMatrToolStripMenuItem
+        '
+        Me.OrdenarMatrToolStripMenuItem.Name = "OrdenarMatrToolStripMenuItem"
+        Me.OrdenarMatrToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.OrdenarMatrToolStripMenuItem.Text = "Ordenar filas por cantidad primos"
+        '
+        'OrdenarInversoToolStripMenuItem
+        '
+        Me.OrdenarInversoToolStripMenuItem.Name = "OrdenarInversoToolStripMenuItem"
+        Me.OrdenarInversoToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.OrdenarInversoToolStripMenuItem.Text = "Ordenar desde el final al inicio"
+        '
+        'VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem
+        '
+        Me.VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem.Name = "VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem"
+        Me.VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem.Text = "Verificar Matriz ordenada inferior izquierda a derecha"
+        '
+        'CargaManualToolStripMenuItem
+        '
+        Me.CargaManualToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CargaManualToolStripMenuItem1})
+        Me.CargaManualToolStripMenuItem.Name = "CargaManualToolStripMenuItem"
+        Me.CargaManualToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.CargaManualToolStripMenuItem.Text = "Carga"
+        '
+        'CargaManualToolStripMenuItem1
+        '
+        Me.CargaManualToolStripMenuItem1.Name = "CargaManualToolStripMenuItem1"
+        Me.CargaManualToolStripMenuItem1.Size = New System.Drawing.Size(148, 22)
+        Me.CargaManualToolStripMenuItem1.Text = "Carga Manual"
         '
         'TxtNF
         '
@@ -120,11 +184,11 @@ Partial Class Form1
         Me.TxtResultado.Size = New System.Drawing.Size(262, 97)
         Me.TxtResultado.TabIndex = 6
         '
-        'CantidadPrimosPorFilaToolStripMenuItem
+        'SegmentarMatrizPorFrecuenciaToolStripMenuItem
         '
-        Me.CantidadPrimosPorFilaToolStripMenuItem.Name = "CantidadPrimosPorFilaToolStripMenuItem"
-        Me.CantidadPrimosPorFilaToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
-        Me.CantidadPrimosPorFilaToolStripMenuItem.Text = "Cantidad Primos Por Fila"
+        Me.SegmentarMatrizPorFrecuenciaToolStripMenuItem.Name = "SegmentarMatrizPorFrecuenciaToolStripMenuItem"
+        Me.SegmentarMatrizPorFrecuenciaToolStripMenuItem.Size = New System.Drawing.Size(351, 22)
+        Me.SegmentarMatrizPorFrecuenciaToolStripMenuItem.Text = "Segmentar Matriz por Frecuencia"
         '
         'Form1
         '
@@ -159,4 +223,13 @@ Partial Class Form1
     Friend WithEvents CantidadElementosUnicosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CargarRandomToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CantidadPrimosPorFilaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SegmentarPrimosNoPrimosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OrdenarColumnasDeAcuerdoAFilaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VerificarColumnasOrdenadasAbajoAArribaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CargaManualToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CargaManualToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents OrdenarMatrToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OrdenarInversoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VerificarMatrizOrdenadaInferiorIzquierdaADerechaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SegmentarMatrizPorFrecuenciaToolStripMenuItem As ToolStripMenuItem
 End Class
