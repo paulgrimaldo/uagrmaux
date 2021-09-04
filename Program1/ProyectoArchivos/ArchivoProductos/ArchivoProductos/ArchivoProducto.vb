@@ -56,6 +56,8 @@
             costo = .costo
             est = .est
         End With
+
+
     End Sub
 
     Public Function CantidadRegs() As Int16

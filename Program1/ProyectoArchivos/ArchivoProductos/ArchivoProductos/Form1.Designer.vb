@@ -33,10 +33,18 @@ Partial Class Form1
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AccederArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SeleccionarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ParesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ImparesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BtnGuardar = New System.Windows.Forms.Button()
         Me.BtnCerrar = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.TxtTipo = New System.Windows.Forms.TextBox()
+        Me.BtnCalcular = New System.Windows.Forms.Button()
+        Me.TxtResultado = New System.Windows.Forms.TextBox()
+        Me.BtnModificar = New System.Windows.Forms.Button()
+        Me.BtnEliminar = New System.Windows.Forms.Button()
         CType(Me.DGDatos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -83,7 +91,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpcionesToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpcionesToolStripMenuItem, Me.SeleccionarToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -109,6 +117,25 @@ Partial Class Form1
         Me.AccederArchivoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AccederArchivoToolStripMenuItem.Text = "Acceder archivo"
         '
+        'SeleccionarToolStripMenuItem
+        '
+        Me.SeleccionarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ParesToolStripMenuItem, Me.ImparesToolStripMenuItem})
+        Me.SeleccionarToolStripMenuItem.Name = "SeleccionarToolStripMenuItem"
+        Me.SeleccionarToolStripMenuItem.Size = New System.Drawing.Size(79, 20)
+        Me.SeleccionarToolStripMenuItem.Text = "Seleccionar"
+        '
+        'ParesToolStripMenuItem
+        '
+        Me.ParesToolStripMenuItem.Name = "ParesToolStripMenuItem"
+        Me.ParesToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.ParesToolStripMenuItem.Text = "Pares"
+        '
+        'ImparesToolStripMenuItem
+        '
+        Me.ImparesToolStripMenuItem.Name = "ImparesToolStripMenuItem"
+        Me.ImparesToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.ImparesToolStripMenuItem.Text = "Impares"
+        '
         'BtnGuardar
         '
         Me.BtnGuardar.Location = New System.Drawing.Point(674, 139)
@@ -131,11 +158,59 @@ Partial Class Form1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'TxtTipo
+        '
+        Me.TxtTipo.Location = New System.Drawing.Point(46, 300)
+        Me.TxtTipo.Name = "TxtTipo"
+        Me.TxtTipo.Size = New System.Drawing.Size(132, 23)
+        Me.TxtTipo.TabIndex = 4
+        Me.TxtTipo.Text = "Introducir el tipo"
+        '
+        'BtnCalcular
+        '
+        Me.BtnCalcular.Location = New System.Drawing.Point(202, 300)
+        Me.BtnCalcular.Name = "BtnCalcular"
+        Me.BtnCalcular.Size = New System.Drawing.Size(75, 23)
+        Me.BtnCalcular.TabIndex = 5
+        Me.BtnCalcular.Text = "Calcular costo"
+        Me.BtnCalcular.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnCalcular.UseVisualStyleBackColor = True
+        '
+        'TxtResultado
+        '
+        Me.TxtResultado.Location = New System.Drawing.Point(46, 344)
+        Me.TxtResultado.Name = "TxtResultado"
+        Me.TxtResultado.Size = New System.Drawing.Size(100, 23)
+        Me.TxtResultado.TabIndex = 6
+        '
+        'BtnModificar
+        '
+        Me.BtnModificar.Location = New System.Drawing.Point(381, 299)
+        Me.BtnModificar.Name = "BtnModificar"
+        Me.BtnModificar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnModificar.TabIndex = 8
+        Me.BtnModificar.Text = "Modificar"
+        Me.BtnModificar.UseVisualStyleBackColor = True
+        '
+        'BtnEliminar
+        '
+        Me.BtnEliminar.Location = New System.Drawing.Point(381, 329)
+        Me.BtnEliminar.Name = "BtnEliminar"
+        Me.BtnEliminar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnEliminar.TabIndex = 9
+        Me.BtnEliminar.Text = "Eliminar"
+        Me.BtnEliminar.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.BtnEliminar)
+        Me.Controls.Add(Me.BtnModificar)
+        Me.Controls.Add(Me.TxtResultado)
+        Me.Controls.Add(Me.BtnCalcular)
+        Me.Controls.Add(Me.TxtTipo)
         Me.Controls.Add(Me.BtnCerrar)
         Me.Controls.Add(Me.BtnGuardar)
         Me.Controls.Add(Me.DGDatos)
@@ -166,4 +241,12 @@ Partial Class Form1
     Friend WithEvents BtnCerrar As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents SeleccionarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ParesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ImparesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TxtTipo As TextBox
+    Friend WithEvents BtnCalcular As Button
+    Friend WithEvents TxtResultado As TextBox
+    Friend WithEvents BtnModificar As Button
+    Friend WithEvents BtnEliminar As Button
 End Class
