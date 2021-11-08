@@ -1,0 +1,18 @@
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\Practico Vectores.exe
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\Practico Vectores.deps.json
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\Practico Vectores.runtimeconfig.json
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\Practico Vectores.runtimeconfig.dev.json
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\Practico Vectores.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\ref\Practico Vectores.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\bin\Debug\net5.0-windows\Practico Vectores.pdb
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.vbproj.AssemblyReference.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico_Vectores.Form1.resources
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.vbproj.GenerateResource.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.GeneratedMSBuildEditorConfig.editorconfig
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.AssemblyInfoInputs.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.AssemblyInfo.vb
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.vbproj.CoreCompileInputs.cache
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\ref\Practico Vectores.dll
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.pdb
+D:\PaulGrimaldo\university\Aux2021\Program1\2_2021\Practico Vectores\obj\Debug\net5.0-windows\Practico Vectores.genruntimeconfig.cache
